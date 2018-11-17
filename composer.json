@@ -1,5 +1,5 @@
 {
-	"name": "tartan/laravel-online-payment",
+	"name": "iranrenter-group/laravel-online-payment",
 	"description": "Iranian payment gateways handler for laravel applications",
 	"keywords": ["payment","shetab", "bank", "online payment", "gateway", "iran"],
 	"type": "library",
