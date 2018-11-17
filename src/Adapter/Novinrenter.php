@@ -39,7 +39,7 @@ class Novinrenter extends AdapterAbstract implements AdapterInterface
 			'amount'      => $this->amount,
 			'redirectAddress'      => $this->redirect_url,
 			'order_id'      => $this->order_id,
-			'description' => $this->description,
+			'description' => $this->additional_data ? $this->additional_data : '',
 		];
 
 		try {
