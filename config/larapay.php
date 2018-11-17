@@ -114,6 +114,10 @@ return [
     'pay_ir'    => [
         'api'   => env('PAY_IR_API_KEY', ''),
     ],
+
+    'novinrenter'    => [
+        'api'   => env('NOVINRENTER_API_KEY', ''),
+    ],
     /*
     |--------------------------------------------------------------------------
     | SoapClient Options
