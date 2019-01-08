@@ -1,3 +1,5 @@
+[![BCH compliance](https://bettercodehub.com/edge/badge/iranrenter-group/laravel-online-payment?branch=master)](https://bettercodehub.com/)
+
 # Laravel Online Payment :: LaraPay component
 
 Online Payment Module handler for Laravel 5+ known as LaraPay component completely compatible with [banktest.ir](http://banktest.ir) simulator
