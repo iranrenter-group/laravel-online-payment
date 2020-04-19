@@ -9,9 +9,9 @@ use Tartan\Larapay\Transaction\TransactionInterface;
 
 class Vandar extends AdapterAbstract implements AdapterInterface
 {
-    public $endPoint = 'https://vandar.io/api/ipg/test/send';
-    public $endPointForm = 'https://vandar.io/ipg/test/';
-    public $endPointVerify = 'https://vandar.io/api/ipg/test/verify';
+    public $endPoint = 'https://vandar.io/api/ipg/send';
+    public $endPointForm = 'https://vandar.io/ipg/';
+    public $endPointVerify = 'https://vandar.io/api/ipg/verify';
 
     public $reverseSupport = false;
 
