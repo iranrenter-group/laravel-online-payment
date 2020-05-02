@@ -121,7 +121,7 @@ class Vandar extends AdapterAbstract implements AdapterInterface
 
                 if ($response->status == 1) {
                     $this->getTransaction()->setVerified();
-                    $this->getTransaction()->setReferenceId($this->token); // update transaction reference id
+                    $this->getTransaction()->setReferenceId($response->transId); // update transaction reference id
                     return true;
                 } else {
                     throw new Exception($response->status);
