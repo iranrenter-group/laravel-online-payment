@@ -40,7 +40,7 @@ class Vandar extends AdapterAbstract implements AdapterInterface
             'api'          => $this->api,
             'amount'       => intval($this->amount),
             'factorNumber' => ($this->order_id),
-            'description'  => $this->description ? $this->description : '',
+            'description'  => $this->description ? 'ش.س '.$this->description : '',
             'mobile'       => $this->mobile ? $this->mobile : '',
             'redirect'     => $this->redirect_url,
         ];
