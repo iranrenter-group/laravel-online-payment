@@ -119,6 +119,10 @@ return [
         'api' => env('VANDAR_IR_API_KEY', 'test'),
     ],
 
+    'zibal' => [
+        'merchant' => env(' ZIBAL_MERCHANT_KEY', 'zibal'),
+    ],
+
     'novinrenter' => [
         'api' => env('NOVINRENTER_API_KEY', ''),
     ],

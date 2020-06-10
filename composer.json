@@ -4,13 +4,6 @@
 	"keywords": ["payment","shetab", "bank", "online payment", "gateway", "iran"],
 	"type": "library",
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Aboozar Ghafari <Tartan>",
-			"email": "aboozar.ghf@gmail.com",
-			"website" : "tartan.us.to"
-		}
-	],
 	"require": {
 		"php": ">=5.4.0",
 		 "illuminate/support": "^5.2|^6.0|^7.0"
